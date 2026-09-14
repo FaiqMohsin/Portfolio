@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const chatbotSend = document.getElementById('chatbot-send');
   const chatbotMessages = document.getElementById('chatbot-messages');
 
-  const API_URL = 'http://localhost:8000/chat';
+  const API_URL = 'https://portfolio-chatbot-yfbn.onrender.com/chat';
 
   // open chatbot window
   chatbotToggle.addEventListener('click', () => {
