@@ -18,6 +18,13 @@
         .timeline-description-list li {
             margin-bottom: 6px;
         }
+        .project-description-list {
+            padding-left: 20px;
+            font-size: 14px;
+            color: #555;
+            margin-top: 10px;
+            margin-bottom: 15px;
+        }
     </style>
 </head>
 <body>
@@ -30,6 +37,7 @@
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
@@ -59,11 +67,7 @@
             <div class="about-content">
                 <h2 class="about-title">About Me</h2>
                 <p class="about-description">
-                    Computer Science student at NUML University and Full Stack Developer
-                    transitioning into AI Engineering. I build production-ready AI applications
-                    using Python, LangChain, RAG systems, and FastAPI. Currently working at
-                    Dynamic Media Group while developing AI projects and pursuing my degree.
-                    Open to remote AI engineering roles and freelance projects internationally.
+                    Computer Science student at NUML University and Full Stack Developer transitioning into AI Engineering with hands-on experience building production-ready AI applications. Proficient in Python, LangChain, RAG systems, FastAPI, and vector databases. Built and deployed Cortex—a live AI study assistant—and SmartBMS—an IoT battery health prediction system. Strong foundation in web development, eCommerce, and digital marketing combined with modern AI engineering skills. Open to remote AI engineering roles and freelance projects internationally.
                 </p>
                 <div class="about-stats">
                     <div class="stat">
@@ -86,7 +90,7 @@
     <!-- SKILLS -->
     <section id="skills">
         <div class="skills-container">
-            <h2 class="section-title">Skills</h2>
+            <h2 class="section-title">Skills & Certifications</h2>
             <div class="skills-grid">
 
                 <div class="skill-category">
@@ -117,7 +121,6 @@
                         <span class="tag">Bootstrap</span>
                         <span class="tag">WordPress</span>
                         <span class="tag">Shopify</span>
-                        <span class="tag">GoHighLevel</span>
                         <span class="tag">REST APIs</span>
                         <span class="tag">Figma</span>
                         <span class="tag">Git</span>
@@ -138,6 +141,22 @@
                         <span class="tag">Meta Business</span>
                     </div>
                 </div>
+                
+                <div class="skill-category">
+                    <h3>Certifications</h3>
+                    <ul class="timeline-description-list" style="margin-bottom: 20px;">
+                        <li>Diploma of Website Development - Brain's Group of Colleges, 2023[cite: 3]</li>
+                        <li>Digital Marketing and Social Media Management - Brain's Group of Colleges, 2023[cite: 3]</li>
+                    </ul>
+                    
+                    <h3>Languages</h3>
+                    <div class="skill-tags">
+                        <span class="tag">English (Fluent)[cite: 3]</span>
+                        <span class="tag">Urdu (Fluent)[cite: 3]</span>
+                        <span class="tag">Hindi (Fluent)[cite: 3]</span>
+                        <span class="tag">Punjabi (Fluent)[cite: 3]</span>
+                    </div>
+                </div>
 
             </div>
         </div>
@@ -155,10 +174,12 @@
                         <span class="project-type">AI Engineering Project</span>
                     </div>
                     <h3 class="project-name">Cortex — AI Study Assistant</h3>
-                    <p class="project-description">
-                        End-to-end RAG system allowing students to upload PDFs and interact
-                        through Q&A, quiz generation, and summarization using semantic search.
-                    </p>
+                    <ul class="project-description-list">
+                        <li>Built end-to-end RAG system allowing students to upload PDFs and interact through Q&A, quiz generation, and summarization.</li>
+                        <li>Implemented semantic search using ChromaDB and Cohere embed-v4.0 embeddings for accurate document retrieval.</li>
+                        <li>Designed FastAPI REST backend with Pydantic validation and Streamlit frontend with session state management.</li>
+                        <li>Deployed live on Streamlit Community Cloud — publicly accessible worldwide at no infrastructure cost.</li>
+                    </ul>
                     <div class="project-stack">
                         <span class="tag">Python</span>
                         <span class="tag">LangChain</span>
@@ -180,10 +201,12 @@
                         <span class="project-type">Final Year Project</span>
                     </div>
                     <h3 class="project-name">SmartBMS — IoT Battery Health System</h3>
-                    <p class="project-description">
-                        IoT predictive maintenance system predicting battery SoH, SoC, and RUL
-                        via LSTM, Random Forest, and XGBoost. Includes Flutter dashboard with SHAP explainability.
-                    </p>
+                    <ul class="project-description-list">
+                        <li>Engineered IoT predictive maintenance system predicting battery SoH, SoC, and RUL via LSTM, XGBoost, and Random Forest.</li>
+                        <li>Applied transfer learning from NASA benchmarks to 620M-row dataset achieving less than 2.5% RMSE accuracy.</li>
+                        <li>Integrated SHAP explainability into Flutter mobile dashboard for plain-language diagnostic notifications.</li>
+                        <li>Built dual-mode WiFi/Bluetooth communication pipeline using ESP32 with on-device TFLite inference.</li>
+                    </ul>
                     <div class="project-stack">
                         <span class="tag">Python</span>
                         <span class="tag">TensorFlow</span>
@@ -206,10 +229,10 @@
                         <span class="project-type">Web + AI Project</span>
                     </div>
                     <h3 class="project-name">Personal Portfolio with AI Chatbot</h3>
-                    <p class="project-description">
-                        Personal portfolio website with an integrated AI chatbot answering
-                        questions about my skills and experience in real time.
-                    </p>
+                    <ul class="project-description-list">
+                        <li>Built personal portfolio with integrated AI chatbot answering questions about skills and experience in real time.</li>
+                        <li>FastAPI backend deployed on Render.com with Cohere LLM - frontend in pure HTML, CSS, JavaScript.</li>
+                    </ul>
                     <div class="project-stack">
                         <span class="tag">HTML5</span>
                         <span class="tag">CSS3</span>
@@ -240,7 +263,7 @@
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
                         <div class="timeline-header">
-                            <h3>Website & eCommerce Developer</h3>
+                            <h3>Full Stack Developer & Digital Marketing Expert</h3>
                             <span class="timeline-date">July 2025 — Present</span>
                         </div>
                         <p class="timeline-company">Dynamic Media Group</p>
@@ -249,10 +272,6 @@
                             <li>Build and manage eCommerce stores using Shopify including product listings, payment integrations, and theme customization</li>
                             <li>Develop and maintain dynamic websites using WordPress CMS with custom plugins and themes</li>
                             <li>Plan and execute paid ad campaigns on Facebook, Instagram, and Google Ads to drive traffic and conversions</li>
-                            <li>Implement SEO strategies including on-page optimization, keyword research, and technical SEO audits</li>
-                            <li>Manage social media accounts and create content strategies to boost brand visibility and engagement</li>
-                            <li>Track and analyze campaign performance using Google Analytics and Meta Business Suite</li>
-                            <li>Handle client communication, requirement gathering, and end-to-end project delivery</li>
                         </ul>
                     </div>
                 </div>
@@ -270,8 +289,6 @@
                             <li>Built and customized eCommerce stores on Shopify ensuring seamless user experience and mobile responsiveness</li>
                             <li>Developed and maintained dynamic websites using WordPress CMS with custom theme modifications</li>
                             <li>Created and managed RESTful API integrations to connect frontend interfaces with backend services</li>
-                            <li>Managed social media platform design and visual branding for the company</li>
-                            <li>Collaborated with backend team to ensure smooth frontend-backend communication</li>
                         </ul>
                     </div>
                 </div>
@@ -288,7 +305,6 @@
                             <li>Built high-quality backlinks through strategic guest posting on authority websites to boost domain ranking</li>
                             <li>Performed in-depth keyword research to identify high-traffic opportunities and optimize content visibility</li>
                             <li>Implemented on-page and off-page SEO strategies increasing organic traffic and lead generation</li>
-                            <li>Conducted technical SEO audits identifying and resolving site speed, crawlability, and indexing issues</li>
                             <li>Monitored rankings and traffic using Google Search Console and SEMrush reporting to clients monthly</li>
                         </ul>
                     </div>
@@ -307,11 +323,40 @@
                             <li>Built pixel-perfect UIs using HTML5, CSS3, JavaScript, and Bootstrap ensuring cross-device compatibility</li>
                             <li>Integrated third-party payment gateways and shipping plugins into eCommerce platforms</li>
                             <li>Ensured user-friendly interfaces with focus on performance, accessibility, and mobile responsiveness</li>
-                            <li>Collaborated with design team to translate Figma mockups into clean working code</li>
                         </ul>
                     </div>
                 </div>
 
+            </div>
+        </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education">
+        <div class="education-container" style="max-width: 800px; margin: 0 auto; padding: 50px 20px;">
+            <h2 class="section-title">Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Bachelor of Computer Science</h3>
+                            <span class="timeline-date">2023 — 2027</span>
+                        </div>
+                        <p class="timeline-company">NUML University (National University of Modern Languages), Lahore</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>FSc Pre Medical</h3>
+                            <span class="timeline-date">2021 — 2023</span>
+                        </div>
+                        <p class="timeline-company">Punjab College</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
